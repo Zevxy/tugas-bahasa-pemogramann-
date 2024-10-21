@@ -49,6 +49,7 @@ else:
 
 # Berikut adalah flowchartnya
 
+![Gambar WhatsApp 2024-10-21 pukul 22 02 31_0ce9a436](https://github.com/user-attachments/assets/475a6d8b-7c5d-4f6a-a8f1-27ae91b32ea8)
 
 
 ## Penjelasan Kode
@@ -126,6 +127,7 @@ else:
 
 # Berikut adalah flowchartnya
 
+![GARCIA FLOWCHART](https://github.com/user-attachments/assets/7a6c945c-525a-4699-b837-fb3419314e3e)
 
 
 ## Penjelasan Kode
