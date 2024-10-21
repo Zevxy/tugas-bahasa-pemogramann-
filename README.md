@@ -43,7 +43,9 @@ else:
 
 # Hasil screenshot di visualstudiocode
 
+![Screenshot 2024-10-21 215829](https://github.com/user-attachments/assets/f5e71a70-7781-4cae-a370-5426685687ac)
 
+![Screenshot 2024-10-21 215834](https://github.com/user-attachments/assets/b036d13f-8f5c-4169-8c18-f4ff65ccb6e2)
 
 # Berikut adalah flowchartnya
 
@@ -118,6 +120,8 @@ else:
 
 
 # Hasil screenshot di visualstudiocode
+![Screenshot 2024-10-21 215920](https://github.com/user-attachments/assets/cf8e205b-1804-431b-a34c-fd2780533058)
+![Uploading Screenshot 2024-10-21 215914.png…]()
 
 
 
