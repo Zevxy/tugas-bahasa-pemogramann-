@@ -249,7 +249,6 @@ dan ini hasil program tersebut:
 
 ![Screenshot 2024-10-19 124253](https://github.com/user-attachments/assets/94d3cabe-7f05-4e17-b467-33f4024c4e89)
 
-
 screnshot kode program:
 
 ![Screenshot 2024-10-19 124142](https://github.com/user-attachments/assets/6d5e4e98-68cc-48a3-ab4b-e14fd07837f6)
@@ -257,5 +256,6 @@ screnshot kode program:
 Dan hasil flowchart dari program tersebut:
 
 ![Screenshot 2024-10-19 130141](https://github.com/user-attachments/assets/edeb91ab-2582-42ba-9e57-9914845aaa8d)
+
 
 
