@@ -45,17 +45,17 @@ Secara default,fungsi print() akan mengakhiri dengan baris baru,dan akan secara 
 
 inilah hasil program tersebut:
 
-![Screenshot 2024-10-19 105401](https://github.com/user-attachments/assets/e4be0ae6-0c1e-46ab-a947-1470668b5387)
+![Screenshot 2024-10-19 105401](https://github.com/user-attachments/assets/f9bdf8d2-6971-41a5-b789-c130eb01c4fa)
 
 dan ini hasil tanpa menggunakan fungsi print() di tengah pada kode program di atas:
 
-![Screenshot 2024-10-19 105727](https://github.com/user-attachments/assets/ce8c4426-642e-4460-b59e-31b88d4bd59b)
+![Screenshot 2024-10-19 105727](https://github.com/user-attachments/assets/fded781d-1baf-430c-b9ff-3c985ea76fd1)
+
 
 ## PENGGUNAAN SEREPATOR
 
-![Screenshot 2024-10-19 105946](https://github.com/user-attachments/assets/f883e3f9-751b-4be6-973a-a1720cf8d062)
+![Screenshot 2024-10-19 105946](https://github.com/user-attachments/assets/b012dc1e-c63e-4d34-9efb-3a63308858c3)
 
-````python
 w, x, y, z, =10, 15, 20, 25
 print(w, x, y, z,)
 print(w, x, y, z, sep=',')
@@ -69,7 +69,9 @@ serepator ini menentukan pembatasan yang digunakan untuk memisahkan sting,serepa
 
 Berikut Hasil Kode Program Diatas:
 
-![Screenshot 2024-10-19 111502](https://github.com/user-attachments/assets/9afa0286-fcd8-437e-8319-0da6019ef34e)
+![Screenshot 2024-10-19 111502](https://github.com/user-attachments/assets/b0e1091f-ad95-4513-85f2-9ef2a747dab9)
+
+
 
 ````python
 w, x, y, z, =10, 15, 20, 25
@@ -89,7 +91,7 @@ karena pemisahnya dihilangkan,kita menggunakan fungsi `sep`atau`split()`dan kita
 
 ## STRING FORMAT
 
-![Screenshot 2024-10-19 112724](https://github.com/user-attachments/assets/d5f2d127-76c0-4653-996c-aa5e6d201274)
+![Screenshot 2024-10-19 112724](https://github.com/user-attachments/assets/3084f6dd-1762-42fd-bcac-1eae55748c58)
 
 ````python
 print(0, 10**0)
@@ -191,15 +193,16 @@ Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
 
 Ini adala hasil program tersebut :
 
-![Screenshot 2024-10-19 120045](https://github.com/user-attachments/assets/0216ca30-757d-4417-b1a4-693f310e737e)
+![Screenshot 2024-10-19 120045](https://github.com/user-attachments/assets/27f52ea7-b7ae-49bd-be9d-d738bd161d14)
 
 dengan eksekusi program:
 
-![Screenshot 2024-10-19 120703](https://github.com/user-attachments/assets/8ecdf7e8-5ad4-43e0-921d-de5f58b3b997)
+
 
 dan flowchart sebagai berikut:
 
-![Screenshot 2024-10-19 122816](https://github.com/user-attachments/assets/ba7daa01-2ed2-4fee-ae27-8670534f89ba)
+![Screenshot 2024-10-19 122816](https://github.com/user-attachments/assets/c028d9e7-26ff-440b-b138-5d26fa81cef1)
+
 
 # MENENTUKAN BILANGAN TERBESAR DARI N DAN BERIKAN ANGKA 0
 
@@ -244,7 +247,8 @@ While true: adalah konstruksi perulangan dalam bahasa pemrograman Python yang me
 
 dan ini hasil program tersebut:
 
-![Screenshot 2024-10-19 124253](https://github.com/user-attachments/assets/4b0860e1-7210-48e9-832d-dbc75982f2a0)
+![Screenshot 2024-10-19 124253](https://github.com/user-attachments/assets/94d3cabe-7f05-4e17-b467-33f4024c4e89)
+
 
 screnshot kode program:
 
@@ -252,6 +256,6 @@ screnshot kode program:
 
 Dan hasil flowchart dari program tersebut:
 
-![Screenshot 2024-10-19 130141](https://github.com/user-attachments/assets/38481632-b63b-44cb-80ad-9a34d161e2d1)
+![Screenshot 2024-10-19 130141](https://github.com/user-attachments/assets/edeb91ab-2582-42ba-9e57-9914845aaa8d)
 
 
