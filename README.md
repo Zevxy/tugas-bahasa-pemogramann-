@@ -121,9 +121,8 @@ else:
 
 # Hasil screenshot di visualstudiocode
 ![Screenshot 2024-10-21 215920](https://github.com/user-attachments/assets/cf8e205b-1804-431b-a34c-fd2780533058)
+
 ![Uploading Screenshot 2024-10-21 215914.png…]()
-
-
 
 # Berikut adalah flowchartnya
 
