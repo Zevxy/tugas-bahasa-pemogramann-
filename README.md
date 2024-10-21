@@ -157,7 +157,7 @@ angka 1 diformat untuk memiliki lebar 16 Karakter atau 16 kali spasi dengan pera
 
 # 3 INPUT BILANGAN
 
-Python
+```Python
 a = int(input("masukan angka pertama: "))
 b = int(input("masukan angka kedua: "))
 c = int(input("masukan angka ketiga: "))
@@ -168,19 +168,19 @@ elif b > a and b > c:
     print(f"angka lebih besar adalah {b}")
 else:
     print(f"angka lebih besar adalah {c}")
-`
+```
 Program ini akan menginputkan 3 bilangan dari a yang sampai dengan c.
 
-python
+```python
 if a > b and a > c:
     print(f"angka lebih besar adalah {a}")
-`
+```
 Karna Jika {a} lebih besar dari {b} dan {a} lebih besar dari {c}, output yang keluar adalah {a}
 
-python
+```python
 elif b > a and b > c:
    print(f"angka lebih besar adalah {b}")
-`
+```
 dan jika {b} lebih besar dari {a} dan {b} lebih besar dari {c} maka output yang keluar adalah {b}
 
 python
@@ -203,7 +203,7 @@ dan flowchart sebagai berikut:
 
 # MENENTUKAN BILANGAN TERBESAR DARI N DAN BERIKAN ANGKA 0
 
-python
+```python
 while True:   
     N = int(input("masukan angka: "))
 
@@ -212,28 +212,29 @@ while True:
         break
     if N > max:
         max = N
-`
+```
 
 Untuk menentukan bilangan terbesar dari n dalam Python, Anda bisa menggunakan fungsi max()
 
-python
+```python
 max = 0
-`
+```
 Masukkan daftar angka ke fungsi max(), Fungsi max() akan mengembalikan angka terbesar dalam daftar
 
 Fungsi max() adalah fungsi bawaan Python yang berguna untuk menemukan nilai terbesar dalam suatu iterable atau dalam serangkaian argumen reguler.
 
-python
+```python
 if N == 0:
         print(f"angka yang terbesar adalah: {max}")
         break
+```
 
 Fungsi ini jika Kita memasukan inputan integer yaitu 0 akan berlanjut ke fungsi break program dihentikan yang artinya selesai.
 
-python
+``python
 if N > max:
         max = N
-`
+```
 Jika Inputan yang kita masukan lebih besar dari fungsi max() di atas, program akan melanjutkan ke proses max = N yang artinya Angka terbesar akan Mencetak Inputan Bilangan yang kita masukan yang terbesar di cetak
 
 python
