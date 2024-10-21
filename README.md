@@ -1,31 +1,173 @@
-## MUHAMMAD GILANG ALFARIZI
+### Nama   = muhammad gilang alfarizi
+### Kelas  = TI.24.A4  
+### NIM    = 312410363
+### Matkul = BAHASA PEMOGRAMAN
 
-KELAS TI 24,A,4
+# Menentukan Bilangan Terbesar dari Serangkaian Input
 
-312410363
+Program ini digunakan untuk mencari bilangan terbesar dari sekumpulan bilangan yang dimasukkan oleh pengguna. Proses penginputan bilangan akan terus berlanjut hingga pengguna memasukkan angka 0, yang menandakan bahwa input telah selesai. Setelah itu, program akan menampilkan bilangan terbesar dari sekumpulan bilangan yang sudah dimasukkan.
+
+## Deskripsi Program
+
+Program ini meminta pengguna untuk memasukkan bilangan secara berulang. Pengguna dapat terus memasukkan bilangan sampai mereka memasukkan angka 0, yang menjadi tanda berhenti untuk program. Setiap kali bilangan baru dimasukkan, program akan mengecek apakah bilangan tersebut lebih besar dari bilangan terbesar sebelumnya. Jika iya, maka bilangan tersebut disimpan sebagai bilangan terbesar.
+
+Jika pengguna tidak memasukkan bilangan apapun dan langsung memasukkan 0, program akan menampilkan pesan bahwa tidak ada bilangan yang dimasukkan.
+
+### Fitur Utama:
+* Program menerima serangkaian input bilangan.
+* Program secara otomatis menentukan bilangan terbesar dari input tersebut.
+* Program berhenti menerima input ketika pengguna memasukkan angka 0.
+
+## Kode Program
+
+python
+def terbesar_dari_N():
+    bilangan_terbesar = None
+    
+    while True:
+        n = int(input("Masukkan bilangan (masukkan 0 untuk berhenti): "))
+        
+        if n == 0:
+            break
+        
+        if bilangan_terbesar is None or n > bilangan_terbesar:
+            bilangan_terbesar = n
+    
+    return bilangan_terbesar
+
+hasil = terbesar_dari_N()
+if hasil is not None:
+    print("Bilangan terbesar adalah:", hasil)
+else:
+    print("Tidak ada bilangan yang dimasukkan.")
+
+# Hasil screenshot di visualstudiocode
 
 
 
+# Berikut adalah flowchartnya
 
-# tugas-bahasa-pemogramann-
 
-MATKUL:BAHASA PEMOGRAMAN
 
-![Screenshot 2024-10-19 095852](https://github.com/user-attachments/assets/18c4eb26-8df1-45df-afb3-dee64f83a5f9)
-## PRAKTIKUM 3
+## Penjelasan Kode
 
-# LATIHAN 1
+1. *Inisialisasi Variabel:*
+   - bilangan_terbesar diinisialisasi sebagai None untuk menyimpan bilangan terbesar yang ditemukan.
+   
+2. *Pengulangan (Loop):*
+   - Program menggunakan loop while True untuk menerima input bilangan dari pengguna.
+   - Setiap kali pengguna memasukkan bilangan, program memeriksa apakah bilangan tersebut adalah 0. Jika iya, loop berhenti dengan perintah break.
+   
+3. *Penentuan Bilangan Terbesar:*
+   - Jika bilangan_terbesar masih None (artinya belum ada bilangan yang disimpan) atau jika bilangan yang baru dimasukkan lebih besar dari bilangan_terbesar saat ini, maka bilangan_terbesar akan diperbarui dengan bilangan tersebut.
+   
+4. *Hasil Akhir:*
+   - Setelah loop berakhir, program mengecek apakah ada bilangan yang dimasukkan (bilangan terbesar tidak None).
+   - Jika ada bilangan yang dimasukkan, program akan menampilkan bilangan terbesar tersebut.
+   - Jika tidak ada bilangan yang dimasukkan (langsung 0 tanpa input bilangan lain), program akan menampilkan pesan bahwa tidak ada bilangan yang dimasukkan.
+
+## Contoh Eksekusi Program
+
+### Contoh 1:
+Pengguna memasukkan beberapa bilangan sebelum berhenti dengan 0.
+
+
+Masukkan bilangan (masukkan 0 untuk berhenti): 12
+Masukkan bilangan (masukkan 0 untuk berhenti): 45
+Masukkan bilangan (masukkan 0 untuk berhenti): 22
+Masukkan bilangan (masukkan 0 untuk berhenti): 0
+Bilangan terbesar adalah: 45
+
+
+### Contoh 2:
+Pengguna langsung memasukkan 0 tanpa memasukkan bilangan lainnya.
+
+
+Masukkan bilangan (masukkan 0 untuk berhenti): 0
+Tidak ada bilangan yang dimasukkan.
+
+
+## Cara Menjalankan Program
+
+1. Pastikan kamu memiliki Python terinstall di komputer kamu.
+2. Simpan kode program ke dalam file Python, misalnya menentukan_bilangan_terbesar.py.
+3. Jalankan program melalui terminal atau command prompt:
+    bash
+    python3 menentukan_bilangan_terbesar.py
+    
+4. Masukkan bilangan secara berurutan. Ketik 0 ketika ingin menghentikan input.
+5. Program akan menampilkan bilangan terbesar atau pesan jika tidak ada bilangan yang dimasukkan.
+
+# menetukan 3 bilangan terbesar
+
+Program ini digunakan untuk menemukan bilangan terbesar dari tiga bilangan yang dimasukkan oleh pengguna. Program meminta tiga bilangan sebagai input, membandingkannya, dan kemudian mencetak bilangan terbesar di antara ketiga bilangan tersebut.
+
+## Kode Program
+
+python
+a = int(input('Masukkan bilangan pertama: '))
+b = int(input('Masukkan bilangan kedua: '))
+c = int(input('Masukkan bilangan ketiga: '))
+
+if a > b and a > c:
+    print(f'Bilangan terbesar adalah {a}')
+elif b > a and b > c:
+    print(f'Bilangan terbesar adalah {b}')
+else:
+    print(f'Bilangan terbesar adalah {c}')
+
+
+# Hasil screenshot di visualstudiocode
+
+
+
+# Berikut adalah flowchartnya
+
+
+
+## Penjelasan Kode
+
+1. *Input Bilangan:*
+   Program meminta pengguna memasukkan tiga bilangan menggunakan fungsi input() dan mengonversinya menjadi bilangan bulat (int), kemudian disimpan ke variabel a, b, dan c.
+
+2. *Logika Penentuan Bilangan Terbesar:*
+   - Program menggunakan struktur kondisi if-elif-else untuk membandingkan ketiga bilangan.
+   - Jika a lebih besar dari b dan c, program akan mencetak bahwa a adalah bilangan terbesar.
+   - Jika b lebih besar dari a dan c, program akan mencetak bahwa b adalah bilangan terbesar.
+   - Jika tidak ada kondisi di atas yang terpenuhi, program akan menganggap bahwa c adalah bilangan terbesar dan mencetaknya.
+
+3. *Output:*
+   Program akan mencetak bilangan terbesar yang ditemukan di antara ketiga bilangan yang diinputkan oleh pengguna.
+
+## Contoh Eksekusi Program
+
+### Contoh 1:
+Pengguna memasukkan tiga bilangan, yaitu 10, 20, dan 15.
+
+
+Masukkan bilangan pertama: 10
+Masukkan bilangan kedua: 20
+Masukkan bilangan ketiga: 15
+Bilangan terbesar adalah 20
+
+
+### Contoh 2:
+Pengguna memasukkan tiga bilangan, yaitu 45, 35, dan 50.
+
+
+Masukkan bilangan pertama: 45
+Masukkan bilangan kedua: 35
+Masukkan bilangan ketiga: 50
+Bilangan terbesar adalah 50
+
+# PRAKTIKUM 3 LATIHAN 1
 
 <img width="712" alt="image" src="https://github.com/user-attachments/assets/1447f1ff-cdc7-42cd-a86c-90956cac26f5">
-<p># PEMBAHSAN MENGENAI:</p>
-<p># PENGGUNAAN END</p>
-<p># PENGGUNAAN SEREPATOR</p>
-<p># STRING FORMAT</p>
 
 ## PENGGUNAAN END
 <img width="286" alt="image" src="https://github.com/user-attachments/assets/6d7f5c02-fa7a-46bf-97b4-1bf8f3a45e90">
 
-````python
+```python
 print('A', end='')
 print('b', end='')
 print('c', end='')
@@ -37,7 +179,7 @@ print('z')
 
 Parameter end dalam fungsi Print () di python di gunakan untuk menambahkan string(" ")apapun diakhir dan mengeluarkan pertanyaan print
 
-````python
+```python
 print()
 ```
 
@@ -45,17 +187,17 @@ Secara default,fungsi print() akan mengakhiri dengan baris baru,dan akan secara 
 
 inilah hasil program tersebut:
 
-![Screenshot 2024-10-19 105401](https://github.com/user-attachments/assets/f9bdf8d2-6971-41a5-b789-c130eb01c4fa)
+![Screenshot 2024-10-19 105401](https://github.com/user-attachments/assets/e4be0ae6-0c1e-46ab-a947-1470668b5387)
 
 dan ini hasil tanpa menggunakan fungsi print() di tengah pada kode program di atas:
 
-![Screenshot 2024-10-19 105727](https://github.com/user-attachments/assets/fded781d-1baf-430c-b9ff-3c985ea76fd1)
-
+![Screenshot 2024-10-19 105727](https://github.com/user-attachments/assets/ce8c4426-642e-4460-b59e-31b88d4bd59b)
 
 ## PENGGUNAAN SEREPATOR
 
-![Screenshot 2024-10-19 105946](https://github.com/user-attachments/assets/b012dc1e-c63e-4d34-9efb-3a63308858c3)
+![Screenshot 2024-10-19 105946](https://github.com/user-attachments/assets/f883e3f9-751b-4be6-973a-a1720cf8d062)
 
+```python
 w, x, y, z, =10, 15, 20, 25
 print(w, x, y, z,)
 print(w, x, y, z, sep=',')
@@ -69,31 +211,29 @@ serepator ini menentukan pembatasan yang digunakan untuk memisahkan sting,serepa
 
 Berikut Hasil Kode Program Diatas:
 
-![Screenshot 2024-10-19 111502](https://github.com/user-attachments/assets/b0e1091f-ad95-4513-85f2-9ef2a747dab9)
+![Screenshot 2024-10-19 111502](https://github.com/user-attachments/assets/9afa0286-fcd8-437e-8319-0da6019ef34e)
 
-
-
-````python
+```python
 w, x, y, z, =10, 15, 20, 25
 ```
 Variable yang seperti ini menentukan parameter,jadi variable ini tidak bisa memasukan variable angka yang sudah ditentukan w = 10,x=15,y=20,z=25
 
-````python
+```python
 print(w, x, y, z,)
-```
 
+```
 Fungsi ini hanya mencetak saja yang menggunakan fungsi print(), tetapi di karenakan mencetak parameter,koma tersebut di hilangkan
 
-````python
+```python
 print(w, x, y, z, sep=',')
 ```
 karena pemisahnya dihilangkan,kita menggunakan fungsi `sep`atau`split()`dan kita memasukkan pemisahnya didalam string akan memunculkan cetakan yang sesuai keinginan anda dalam memisahkan sesuatu parameter
 
 ## STRING FORMAT
 
-![Screenshot 2024-10-19 112724](https://github.com/user-attachments/assets/3084f6dd-1762-42fd-bcac-1eae55748c58)
+![Screenshot 2024-10-19 112724](https://github.com/user-attachments/assets/d5f2d127-76c0-4653-996c-aa5e6d201274)
 
-````python
+```python
 print(0, 10**0)
 print(1, 10**1)
 print(2, 10**2)
@@ -120,7 +260,7 @@ print('{0:>3} {1:>16}'.format(10, 10**10))
 ```
 String Format adalah proses memasukan variable atau string kustom ke dalam teks yang sudah ditentukan,dan dapat digunakan untuk berbagai keperluan,seperti memasukan judul dalam grafik,menampilkan pesan atau kesalahan, atau meneruskan kesalahan ke suatu fungsi 
 
-````python
+```python
 print(0, 10**0)
 print(1, 10**1)
 print(2, 10**2)
@@ -133,9 +273,9 @@ print(9, 10**9)
 print(10, 10**10)
 ```
 
-Nilai pertama dalam setiap pasangan adalah angka dari 0 hingga 10, kode program ini dihitung dengan menggunakan operasi pangkat atau fungsinya (**) untuk menaikkan 10 ke pangkat yang sesuai dengan angka pertama, yang bisa di bahasa manusiakan variable 0 = 10 pangkat 0, variable 1 10 pangkat 1 dan seterusnya hingga variable 10 yaitu 10 pangkat 10, dan di cetak dengan fungsi print()
+Nilai pertama dalam setiap pasangan adalah angka dari 0 hingga 10, kode program ini dihitung dengan menggunakan operasi pangkat atau fungsinya () untuk menaikkan 10 ke pangkat yang sesuai dengan angka pertama, yang bisa di bahasa manusiakan variable 0 = 10 pangkat 0, variable 1 10 pangkat 1 dan seterusnya hingga variable 10 yaitu 10 pangkat 10, dan di cetak dengan fungsi print()
 
-````python
+```python
 print('{0:>3} {1:>16}'.format(0, 10**0))
 print('{0:>3} {1:>16}'.format(1, 10**1))
 print('{0:>3} {1:>16}'.format(2, 10**2))
@@ -153,109 +293,5 @@ Kode ini mencetak 11 baris dengan format {0:3} {1:16} yang di gunakan untuk meng
 
 Pada string pertama, angka 0 di format untuk memeliki lebar 3 karakter atau yang bisa disebut 3 kali spasi dengan perataan kanan.
 
-angka 1 diformat untuk memiliki lebar 16 Karakter atau 16 kali spasi dengan perataan kanan, dan masing-masing mencetak nilai seperti format di atas dengan fungsi print()
-
-# KODE PROGRAM
-
-# 3 INPUT BILANGAN
-
-````Python
-a = int(input("masukan angka pertama: "))
-b = int(input("masukan angka kedua: "))
-c = int(input("masukan angka ketiga: "))
-
-if a > b and a > c:
-    print(f"angka lebih besar adalah {a}")
-elif b > a and b > c:
-    print(f"angka lebih besar adalah {b}")
-else:
-    print(f"angka lebih besar adalah {c}")
-```
-Program ini akan menginputkan 3 bilangan dari a yang sampai dengan c.
-
-````python
-if a > b and a > c:
-    print(f"angka lebih besar adalah {a}")
-```
-Karna Jika {a} lebih besar dari {b} dan {a} lebih besar dari {c}, output yang keluar adalah {a}
-
-````python
-elif b > a and b > c:
-   print(f"angka lebih besar adalah {b}")
-```
-dan jika {b} lebih besar dari {a} dan {b} lebih besar dari {c} maka output yang keluar adalah {b}
-
-````python
-else:
-    print(f"angka lebih besar adalah {c}")
-```
-Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
-
-Ini adala hasil program tersebut :
-
-![Screenshot 2024-10-19 120045](https://github.com/user-attachments/assets/27f52ea7-b7ae-49bd-be9d-d738bd161d14)
-
-dengan eksekusi program:
-
-
-
-dan flowchart sebagai berikut:
-
-![Screenshot 2024-10-19 122816](https://github.com/user-attachments/assets/c028d9e7-26ff-440b-b138-5d26fa81cef1)
-
-
-# MENENTUKAN BILANGAN TERBESAR DARI N DAN BERIKAN ANGKA 0
-
-````python
-while True:   
-    N = int(input("masukan angka: "))
-
-    if N == 0:
-        print(f"angaka terbesar adalah: {max}")
-        break
-    if N > max:
-        max = N
-```
-
-Untuk menentukan bilangan terbesar dari n dalam Python, Anda bisa menggunakan fungsi max()
-
-````python
-max = 0
-```
-Masukkan daftar angka ke fungsi max(), Fungsi max() akan mengembalikan angka terbesar dalam daftar
-
-Fungsi max() adalah fungsi bawaan Python yang berguna untuk menemukan nilai terbesar dalam suatu iterable atau dalam serangkaian argumen reguler.
-
-````python
-if N == 0:
-        print(f"angka yang terbesar adalah: {max}")
-        break
-```
-
-Fungsi ini jika Kita memasukan inputan integer yaitu 0 akan berlanjut ke fungsi break program dihentikan yang artinya selesai.
-
-````python
-if N > max:
-        max = N
-```
-Jika Inputan yang kita masukan lebih besar dari fungsi max() di atas, program akan melanjutkan ke proses max = N yang artinya Angka terbesar akan Mencetak Inputan Bilangan yang kita masukan yang terbesar di cetak
-
-````python
-while True:
-```
-While true: adalah konstruksi perulangan dalam bahasa pemrograman Python yang memungkinkan blok kode diulang tanpa batas. dan karna di kode program diatas ada fungsi While True: Program terus berlanjut terus menerus, dan ketika kita ingin berhenti saya berikan decision N==0 dengan fungsi di bawahnya break seperti di atas yang berarti Inputan Integer yang di masukan angka 0 program akan di hentikan dan memunculkan cetakan yang terbesar
-
-dan ini hasil program tersebut:
-
-![Screenshot 2024-10-19 124253](https://github.com/user-attachments/assets/94d3cabe-7f05-4e17-b467-33f4024c4e89)
-
-screnshot kode program:
-
-![Screenshot 2024-10-19 124142](https://github.com/user-attachments/assets/6d5e4e98-68cc-48a3-ab4b-e14fd07837f6)
-
-Dan hasil flowchart dari program tersebut:
-
-![Screenshot 2024-10-19 130141](https://github.com/user-attachments/assets/edeb91ab-2582-42ba-9e57-9914845aaa8d)
-
-
+angka 1 diformat untuk memiliki lebar 16 Karakter atau 16 kali spasi dengan perataan kanan, dan masing-masing mencetak nilai seperti format di atas dengan fungsi print()
 
