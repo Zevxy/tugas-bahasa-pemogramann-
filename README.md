@@ -183,10 +183,10 @@ elif b > a and b > c:
 ```
 dan jika {b} lebih besar dari {a} dan {b} lebih besar dari {c} maka output yang keluar adalah {b}
 
-python
+```python
 else:
     print(f"angka lebih besar adalah {c}")
-`
+```
 Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
 
 Ini adala hasil program tersebut :
@@ -237,9 +237,9 @@ if N > max:
 ```
 Jika Inputan yang kita masukan lebih besar dari fungsi max() di atas, program akan melanjutkan ke proses max = N yang artinya Angka terbesar akan Mencetak Inputan Bilangan yang kita masukan yang terbesar di cetak
 
-python
+```python
 while True:
-`
+```
 While true: adalah konstruksi perulangan dalam bahasa pemrograman Python yang memungkinkan blok kode diulang tanpa batas. dan karna di kode program diatas ada fungsi While True: Program terus berlanjut terus menerus, dan ketika kita ingin berhenti saya berikan decision N==0 dengan fungsi di bawahnya break seperti di atas yang berarti Inputan Integer yang di masukan angka 0 program akan di hentikan dan memunculkan cetakan yang terbesar
 
 dan ini hasil program tersebut:
