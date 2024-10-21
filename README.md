@@ -1,3 +1,12 @@
+## MUHAMMAD GILANG ALFARIZI
+
+KELAS TI 24,A,4
+
+312410363
+
+
+
+
 # tugas-bahasa-pemogramann-
 
 MATKUL:BAHASA PEMOGRAMAN
