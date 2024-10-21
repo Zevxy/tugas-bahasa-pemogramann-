@@ -253,3 +253,4 @@ screnshot kode program:
 Dan hasil flowchart dari program tersebut:
 
 ![Screenshot 2024-10-19 130141](https://github.com/user-attachments/assets/38481632-b63b-44cb-80ad-9a34d161e2d1)
+
